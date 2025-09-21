@@ -113,8 +113,7 @@ let header = $(`
 $(function () {
   let bodyElement = $(`body`);
   bodyElement.prepend(header);
-  bodyElement.append(upArrow);
-  $("#btnScrollToTop").css("visibility", "hidden");
+
 
   //toggler hamburger functions
   const menuBtn = document.querySelector(".navbar-toggler");
@@ -233,12 +232,4 @@ window.addEventListener("storage", function () {
   } else {
     app.setAttribute("light-mode", "light");
   }
-});
-
-// Function to remove scroll bar during preload
-$(window).on("load", function () {
-  setTimeout(function () {
-    $(".no-scroll-preload").css("overflow", "visible");
-  }, 1000);
-  $(".loader-container").fadeOut(2500);
 });
