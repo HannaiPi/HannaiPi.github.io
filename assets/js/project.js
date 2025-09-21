@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/quiz.jpg",
     description: "A quiz app built using basic react.",
     
-    Previewlink: "",
+    Previewlink: "https://github.com/HannaiPi/HannaiPi.github.io",
     Githublink: "",
   },
   {
